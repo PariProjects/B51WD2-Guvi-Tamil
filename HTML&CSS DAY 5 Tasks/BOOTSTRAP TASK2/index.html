@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP TASK2-RESUME</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+</head>
+
+<body>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  -->
+
+    <div class="top-div">
+        <img src="./images/David Roy.jpg" alt="David Roy Image" class="main-image" srcset="data:image/jpeg;base64,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">
+        <div class="line"></div>
+        <div class="container">
+            <p class="name">DAVID ROY</p>
+        </div>
+    </div>
+    <p class="text-center">N. Damen Avenue, Chicago 99999 | 999-999-9999 | hello@kickresume.com | www.kickresume.com</p>
+    <hr class="hr">
+    <div class="container-1">
+        <div class="icon-containers">
+            <div class="icons">
+                <img src="./images/user.png" alt="user" srcset="">
+            </div>
+        </div>
+        <h1>Profile</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere sint minima. Magni quaerat,
+            distinctio possimus doloremque fugit veniam molestias illo numquam velit, accusantium quos, non consequatur
+            a ut dignissimos?</p>
+        <div class="icon-containers">
+            <div class="icons">
+                <img src="./images/flask.png" alt="user" srcset="">
+            </div>
+        </div>
+        <h1>Skills</h1>
+        <h3 style="text-align: center;">Technical Skills</h3>
+        <div class="skill-names">
+            <h4>JavaScript</h4>
+            <h4>CSS</h4>
+            <h4>HTML</h4>
+            <h4>React</h4>
+            <h4>Python</h4>
+            <h4>Deployment</h4>
+        </div>
+        <div class="skill-range">
+            <input type="range" name="js" min="1" max="100" value="75" class="sk">
+            <input type="range" name="css" min="1" max="100" value="65" class="sk">
+            <input type="range" name="html" min="1" max="100" value="80" class="sk">
+            <input type="range" name="react" min="1" max="100" value="50" class="sk">
+            <input type="range" name="python" min="1" max="100" value="90" class="sk">
+            <input type="range" name="deploy" min="1" max="100" value="55" class="sk">
+        </div>
+        <h3 style="text-align: center;">Additional Skills</h3>
+        <div class="skill-names">
+            <h4>Project Management</h4>
+            <h4>Leadership</h4>
+            <h4>Business Development</h4>
+            <h4>Team Management</h4>
+        </div>
+        <div class="skill-range">
+            <input type="range" name="js" min="1" max="100" value="100" class="sk">
+            <input type="range" name="css" min="1" max="100" value="100" class="sk">
+            <input type="range" name="html" min="1" max="100" value="80" class="sk">
+            <input type="range" name="react" min="1" max="100" value="90" class="sk">
+        </div>
+        <div class="icon-containers" style="margin-top: 60px;">
+            <div class="icons">
+                <img src="./images/briefcase.png" alt="user" srcset="">
+            </div>
+        </div>
+        <h1 style="margin-top: 60px;">Work Experience</h1><br><br>
+        <p style="display: inline-block; margin-bottom:0;"><strong>Fullstack Developer</strong></p>
+        <p style="float: right;">02/2014 - 05/2018</p>
+        <p style="margin: 0;">One Company</p><br>
+        <ul>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi earum quis labore ipsam consequatur
+                corrupti vitae, nostrum perferendis itaque consequuntur adipisci voluptatum! Dolores fugit enim
+                veritatis recusandae, veniam neque quas.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fugit nam earum asperiores beatae
+                doloremque!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusantium modi consequuntur? Ad
+                laudantium quidem ipsum animi atque dolores sequi perferendis impedit, iusto deserunt excepturi.</li>
+        </ul>
+    </div>
+    <div class="container-2">
+        <div class="icon-containers">
+            <div class="icons">
+                <img src="./images/briefcase.png" alt="user" srcset="">
+            </div>
+        </div>
+        <h1>Work Experience</h1><br><br>
+        <p style="display: inline-block; margin-bottom:0;"><strong>Software Development Engineer</strong></p>
+        <p style="float: right;">05/2018 - Present</p>
+        <p style="margin: 0;">Paypal</p><br>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt unde voluptates voluptas voluptatem inventore.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, modi.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestias cumque iste nam obcaecati totam quis, libero quas aliquam veritatis.</li>
+        </ul>
+        <div class="icon-containers" style="margin-top: 50px;">
+            <div class="icons">
+                <img src="./images/mortarboard.png" alt="user" srcset="">
+            </div>
+        </div>
+        <h1 style="margin-top: 50px;">Education</h1><br><br>
+        <p style="display: inline-block; margin-bottom:0;"><strong>FullStack Development Program</strong></p>
+        <p style="float: right;">06/2020 - Present</p>
+        <p style="margin: 0;">GUVI</p><br>
+        <p style="margin: 0;">Zen Class - Project focused intensive program with emphasis on Mongo, Express, React, and JavaScript (MERN) technical stack.</p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi necessitatibus voluptatibus distinctio veniam eos officia modi excepturi voluptas itaque nobis cupiditate porro alias debitis, quibusdam reiciendis iste. Voluptas officia amet mollitia omnis accusamus explicabo quae harum, deserunt corrupti dolorum maiores facilis vitae alias suscipit, voluptates necessitatibus, ex nulla? Optio, maxime.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet possimus necessitatibus praesentium laboriosam harum aspernatur, rerum commodi assumenda eaque voluptate.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iusto sint labore eius commodi fugit facere asperiores obcaecati dicta, nisi non, a magni corporis dignissimos deleniti doloremque eaque quia laboriosam.</li>
+        </ul>
+        <p style="display: inline-block; margin-bottom:0;"><strong>B.E. Computer Science</strong></p>
+        <p style="float: right;">2013 - 2016</p>
+        <p style="margin: 0;">Anna University, Chennai</p><br>
+    </div>
+</body>
+
+</html>

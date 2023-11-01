@@ -1,0 +1,145 @@
+.border{
+    width: 100%;
+    height: 610px;
+    border: 2px solid black;
+    background-color: rgb(219, 242, 249);
+    position: relative;
+}
+.searchIcon{
+    margin: 7px;
+    position: fixed;
+    right: 850px;
+}
+.span{
+    margin: 5px;
+}
+
+.searchBar{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   left: 350px;
+   margin: 30px;
+   width: 400px;
+   height: 30px;
+   border: 2px solid black;
+   border-radius: 20px;
+}
+
+.mic{
+    margin: 7px;
+    position: absolute;
+   right: 20px;
+
+
+}
+.event1{
+    position: absolute;
+    top: 90px;
+    left: 15px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.event2{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.event3{
+    position: absolute;
+    top: 90px;
+    left: 600px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.event4{
+    position: absolute;
+    top: 90px;
+    left: 900px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.event5{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.event6{
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.event7{
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.event8{
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    margin: 2px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: rgb(225, 103, 103);
+}
+.heading{
+    position: absolute;
+    left: 65px;
+    top: 0px;
+}
+.box{
+    position: absolute;
+    top: 50px;
+    left: 2px;
+    width: 110px;
+    height: 160px;
+    border: 2px solid black;
+   background-color: rgb(249, 238, 224);
+}
+.date{
+    position: absolute;
+    left: 123px;
+    top: 60px;
+}
+.seats{
+    position: absolute;
+    left: 123px;
+    top: 100px;
+}
+.bookButton{
+    position: absolute;
+    left: 123px;
+    top: 180px;
+    
+}
