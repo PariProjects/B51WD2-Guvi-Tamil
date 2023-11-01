@@ -1,0 +1,131 @@
+/ Write a blog on differences between documents object and window object
+ Main Points
+ 
+1.DOCUMENT OBJECT:
+  1.It represents any HTML document or web page that is loaded in the browser.
+  2.It is loaded inside the window.
+  3.It is the object of window property.
+  4.All the tags, elements with attributes in HTML are part of the document.
+  5.We can access the document from a window using the window. document
+  6.The document is part of BOM (browser object model) and dom (Document object model)
+  7.Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+  8.syntax:
+      document.propertyname;
+  9.example:
+     document.title :  will return the title of the document
+
+2.WINDOW OBJECT:
+  1.It represents a browser window or frame that displays the contents of the webpage.   
+  2.It is the very first object that is loaded in the browser.
+  3.It is the object of the browser.
+  4.Global objects, functions, and variables of JavaScript are members of the window object.
+  5.We can access the window from the window only. i.e. window.window
+  6.The window is part of BOM, not DOM.
+  7.Properties of the window object cannot be accessed by the document object.
+  8.syntax:
+   window.propertyname;
+  9.example:
+   window.innerHeight : will return the height of the content area of the browser
+
+   DIFFERENCE BETWEEN DOCUMENT AND WINDOW OBJECT
+
+1.DOCUMENT OBJECT:
+ the document object represent a WEB PAGE that is loaded in the BROWSER.by accessing the document object, we can access the ELEMENT in the HTML page. with the help of the DUCUMENT OBJECT.it can be accesses with a WINDOW.DOCUMENT or just DOCUMENT.
+
+ SYNTAX:
+  document.property_name;
+ PROPERTIES OF DOCUMENTS:
+ *active element,*body,*anchors,*baseURI,*cookie,*charset,*defaultview,*designmode,*domain,*doctype,*URL,*fullscreenelement,*title,*head,*lastmofified,*implementation,*readystate,*referrer,*strictErrorChecking
+
+ METHODS OF DOCUMENT:
+  SYNTAX=>document.method_name
+  *addevenlistener(),*adoptnode(),*close(),*createAttibute(),*creatComment(),ect...
+
+2.WINDOW OBJECT:
+ the window object is the TOPMOST object of the DOM hierarchy.it represent a BROWSER window or FRAME thet display the contents of the WEBPAGE.whenever a window appears on the screen to display the contents of the document, the window object is created
+
+ SYNTAX=>window.property_name;
+
+                                             MY TASK SUBMISSION
+
+JavaScript Day2 Task
+
+1.	Write the blog on the Difference between Document objects and window objects?
+
+Object:
+
+Object is an entity having state and behavior (properties and method). Example: car, pen, bike, chair, glass, keyboard, monitor etc.
+
+JavaScript is an object-based language. Everything is an object in JavaScript.
+
+JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
+
+JavaScript variables can also contain many values.
+
+Objects are variables too. But objects can contain many values.
+
+Object values are written as name : value pairs (name and value separated by a colon).
+
+Example:
+
+        let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+Document Object:
+
+The document object represents a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
+
+Syntax:
+        document.property_name;
+
+Window Object:
+
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+Syntax:
+        window.property_name;
+
+Difference between Document Object and Window Object :
+
+Document Object
+
+It represents any HTML document or web page that is loaded in the browser.
+It is loaded inside the window.
+It is the object of window property.
+All the tags, elements with attributes in HTML are part of the document.
+We can access the document from a window using the window. document
+The document is part of BOM (browser object model) and dom (Document object model)
+Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+syntax:
+        document.propertyname;
+example:
+    document.title   : It will return the title of the document.
+    document.charSet : It returns a string, representing the document’s character encoding.
+
+Window Object
+
+It represents a browser window or frame that displays the contents of the webpage.   
+It is the very first object that is loaded in the browser.
+It is the object of the browser.
+Global objects, functions, and variables of JavaScript are members of the window object.
+We can access the window from the window only. i.e. window.window
+The window is part of BOM, not DOM.
+Properties of the window object cannot be accessed by the document object.
+syntax:
+        window.propertyname;
+example:
+         window.innerHeight : It will return the height of the content area of the browser.
+         window.length      : It represents the number of frames in the current window.
+
+
+Console:
+
+console  is used to print to stdout& stderr and it is a global object that can be accessed without the import of any module.  
+
+Global objects are responsible for the basic functionality of the framework without importing any modules or creating any functions in order to meet some of the primary requirements.
+
+Global: 
+It is a namespace and defining a variable within this namespace makes it a global variable. 
+            
+            Ex: var myvar;
+
+
